@@ -24,7 +24,7 @@ jobs:
       run : |
         mkdir repo
         rm -rf ./repo/*
-        mv ./* ./repo/
+        mv ./dist/* ./repo/
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
