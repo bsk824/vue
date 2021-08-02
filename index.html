@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="./dist/style.css">
+</head>
+<body>
+	<div id="root"></div>
+	<script src="./dist/app.js"></script>
+	<script>
+		if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+			window.location = 'microsoft-edge:' + window.location;
+			setTimeout(function() {
+				window.location = 'https://go.microsoft.com/fwlink/?linkid=2135547';
+			}, 1);
+		}
+	</script>
+</body>
+</html>
