@@ -9,8 +9,8 @@ Vue.use(VueRouter);
 export default new VueRouter({
 	mode: 'history',
 	routes: [
-		{ path: '/vuetest', component: main },
-		{ path: '/vuetest/covid', component: covid },
-		{ path: '/vuetest/board/write', component: BoardWrite },
+		{ path: '/vue', component: main },
+		{ path: '/vue/covid', component: covid },
+		{ path: '/vue/board/write', component: BoardWrite },
 	]
 })
